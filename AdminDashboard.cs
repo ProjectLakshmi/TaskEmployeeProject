@@ -120,7 +120,7 @@ namespace Assignment_1
             dataGridView2.Visible = false;
             BackButton.Visible = false;
             Status.Visible = false;
-            //StatusLabel.Visible = false;
+            show_tasks.Visible = false;
             ViewEmployees.Visible = true;
         }
 
@@ -155,7 +155,7 @@ namespace Assignment_1
                 DataTable dt = taskDatabase.getTasks(employeeId);
                 dataGridView2.DataSource = dt;
                 dataGridView2.AutoGenerateColumns = false;
-                //StatusLabel.Visible = true;
+                ViewEmployees.Visible = false;
                 Status.Visible = true;
                 dataGridView2.Visible = true;
                 dataGridView1.Visible = false;

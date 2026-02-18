@@ -82,9 +82,9 @@
             // 
             BackButton.BackColor = SystemColors.Highlight;
             BackButton.ForeColor = Color.Transparent;
-            BackButton.Location = new Point(0, 73);
+            BackButton.Location = new Point(0, 62);
             BackButton.Name = "BackButton";
-            BackButton.Size = new Size(78, 27);
+            BackButton.Size = new Size(78, 36);
             BackButton.TabIndex = 8;
             BackButton.Text = "Back";
             BackButton.UseVisualStyleBackColor = false;
@@ -102,7 +102,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(165, 479);
+            panel1.Size = new Size(165, 485);
             panel1.TabIndex = 9;
             // 
             // panel4
@@ -125,7 +125,7 @@
             panel2.Controls.Add(BackButton);
             panel2.Controls.Add(label3);
             panel2.Dock = DockStyle.Bottom;
-            panel2.Location = new Point(0, 378);
+            panel2.Location = new Point(0, 384);
             panel2.Name = "panel2";
             panel2.Size = new Size(165, 101);
             panel2.TabIndex = 9;
@@ -136,7 +136,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = SystemColors.InfoText;
-            label3.Location = new Point(3, 32);
+            label3.Location = new Point(0, 11);
             label3.Name = "label3";
             label3.Size = new Size(78, 28);
             label3.TabIndex = 1;
@@ -150,7 +150,7 @@
             label1.ForeColor = SystemColors.MenuText;
             label1.Location = new Point(0, 25);
             label1.Name = "label1";
-            label1.Size = new Size(148, 21);
+            label1.Size = new Size(148, 30);
             label1.TabIndex = 0;
             label1.Text = "Admin DashBoard";
             label1.TextAlign = ContentAlignment.MiddleLeft;
@@ -272,7 +272,7 @@
             BackColor = SystemColors.Window;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(638, 479);
+            ClientSize = new Size(638, 485);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
