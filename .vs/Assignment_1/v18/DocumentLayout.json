@@ -1,77 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\",
+  "WorkspaceRootPath": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\employeetaskedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employeetaskedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\forget_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:forget_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\forget_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:forget_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\employee_task_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employee_task_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\employeetaskedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employeetaskedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\taskdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:taskdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\employee_task_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employee_task_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\sonar\\documents\\lakshmi_csharp\\managment_project\\assignment_1\\employeedashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\taskdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:taskdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\employeetaskedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employeetaskedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\forget_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:forget_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\forget_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:forget_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\employee_task_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employee_task_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\employeetaskedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employeetaskedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\employee_task_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employee_task_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|c:\\users\\laksh\\downloads\\taskemployeeproject-main\\taskemployeeproject-main\\assignment_1\\employeedashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:employeedashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F7F10338-44C8-D672-30B3-54D29E9B7BBB}|Assignment_1.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -94,13 +94,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeDashboard.cs",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\EmployeeDashboard.cs",
               "RelativeDocumentMoniker": "EmployeeDashboard.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeDashboard.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\EmployeeDashboard.cs [Design]",
+              "RelativeToolTip": "EmployeeDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:19:24.413Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "AdminDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T04:47:59.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\EmployeeDashboard.cs",
+              "RelativeDocumentMoniker": "EmployeeDashboard.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\EmployeeDashboard.cs",
               "RelativeToolTip": "EmployeeDashboard.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAuwLIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAkwGoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T02:07:31.166Z",
               "EditorCaption": ""
@@ -108,22 +131,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
+              "Title": "userDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\userDatabase.cs",
+              "RelativeDocumentMoniker": "userDatabase.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\userDatabase.cs",
+              "RelativeToolTip": "userDatabase.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAwwGEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T08:20:16.987Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-19T02:12:05.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "taskDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\taskDatabase.cs",
+              "RelativeDocumentMoniker": "taskDatabase.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\taskDatabase.cs",
+              "RelativeToolTip": "taskDatabase.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowGQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:27:57.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Login.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Login.cs",
               "RelativeToolTip": "Login.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAgwDQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,60 +167,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AdminDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\AdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "AdminDashboard.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\AdminDashboard.cs",
               "RelativeToolTip": "AdminDashboard.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAArwIkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T09:23:23.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeDashboard.cs",
-              "RelativeDocumentMoniker": "EmployeeDashboard.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeDashboard.cs [Design]",
-              "RelativeToolTip": "EmployeeDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T08:19:24.413Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeTaskEdit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeTaskEdit.cs",
-              "RelativeDocumentMoniker": "EmployeeTaskEdit.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeTaskEdit.cs [Design]",
-              "RelativeToolTip": "EmployeeTaskEdit.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T08:19:43.712Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "userDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\userDatabase.cs",
-              "RelativeDocumentMoniker": "userDatabase.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\userDatabase.cs",
-              "RelativeToolTip": "userDatabase.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAwwGEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T02:12:05.574Z"
+              "WhenOpened": "2026-02-17T09:23:23.291Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:20:16.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeTaskEdit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\EmployeeTaskEdit.cs",
+              "RelativeDocumentMoniker": "EmployeeTaskEdit.cs",
+              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeTaskEdit.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeTaskEdit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:19:43.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SignUp.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\SignUp.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\SignUp.cs",
               "RelativeDocumentMoniker": "SignUp.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\SignUp.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\SignUp.cs",
               "RelativeToolTip": "SignUp.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowBwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -194,11 +214,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Forget_Password.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Forget_Password.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Forget_Password.cs",
               "RelativeDocumentMoniker": "Forget_Password.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Forget_Password.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Forget_Password.cs",
               "RelativeToolTip": "Forget_Password.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -207,22 +227,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Forget_Password.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Forget_Password.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Forget_Password.cs",
               "RelativeDocumentMoniker": "Forget_Password.cs",
               "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Forget_Password.cs [Design]",
-              "RelativeToolTip": "Forget_Password.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Forget_Password.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T08:19:57.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Program.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,11 +250,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Employee_Task_Add.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Employee_Task_Add.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Employee_Task_Add.cs",
               "RelativeDocumentMoniker": "Employee_Task_Add.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Employee_Task_Add.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Employee_Task_Add.cs",
               "RelativeToolTip": "Employee_Task_Add.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,37 +263,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "EmployeeTaskEdit.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeTaskEdit.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\EmployeeTaskEdit.cs",
               "RelativeDocumentMoniker": "EmployeeTaskEdit.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeTaskEdit.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\EmployeeTaskEdit.cs",
               "RelativeToolTip": "EmployeeTaskEdit.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAswAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T03:07:15.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T03:07:15.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "taskDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\taskDatabase.cs",
-              "RelativeDocumentMoniker": "taskDatabase.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\taskDatabase.cs",
-              "RelativeToolTip": "taskDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T09:27:57.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Employee_Task_Add.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Employee_Task_Add.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Employee_Task_Add.cs",
               "RelativeDocumentMoniker": "Employee_Task_Add.cs",
               "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Employee_Task_Add.cs [Design]",
-              "RelativeToolTip": "Employee_Task_Add.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Employee_Task_Add.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T08:18:12.212Z"
             },
@@ -281,34 +288,22 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "EmployeeDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\EmployeeDashboard.Designer.cs",
               "RelativeDocumentMoniker": "EmployeeDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\EmployeeDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\EmployeeDashboard.Designer.cs",
               "RelativeToolTip": "EmployeeDashboard.Designer.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T02:37:00.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "AdminDashboard.cs",
-              "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\AdminDashboard.cs [Design]",
-              "RelativeToolTip": "AdminDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T04:47:59.965Z"
+              "WhenOpened": "2026-02-19T02:37:00.505Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "SignUp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\SignUp.cs",
+              "DocumentMoniker": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\SignUp.cs",
               "RelativeDocumentMoniker": "SignUp.cs",
               "ToolTip": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\SignUp.cs [Design]",
-              "RelativeToolTip": "SignUp.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\SignUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T08:20:34.994Z"
             }
