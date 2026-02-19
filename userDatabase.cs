@@ -7,11 +7,15 @@ using System.Text;
 
 namespace Assignment_1
 {
-    internal class userDatabase
+    public class userDatabase
     {
-        public static string connectionString = "Server=localhost;Database=taskmanager;Trusted_Connection=True;Encrypt=False;";
-
-        public static DataTable getEmployee()
+      //  public static string connectionString = "Server=localhost;Database=taskmanager;Trusted_Connection=True;Encrypt=False;";
+      private readonly string connectionString;
+        public userDatabase(string _connectionString)
+        {
+            connectionString = _connectionString;
+        }
+        public  DataTable getEmployee()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -24,7 +28,7 @@ namespace Assignment_1
                 return employee;
             }
         }
-        public static DataTable toggleStatus(string employee_id, string status)
+        public  DataTable toggleStatus(string employee_id, string status)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -40,7 +44,7 @@ namespace Assignment_1
 
             }
         }
-        public static bool isEmployee(string employee_id)
+        public  bool isEmployee(string employee_id)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -56,7 +60,7 @@ namespace Assignment_1
             }
 
         }
-        public static void UpdatePassword(string employeeId,string newPassword)
+        public  void UpdatePassword(string employeeId,string newPassword)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -73,7 +77,7 @@ namespace Assignment_1
             }
         }
 
-        public static void addUser(string employeeName,string employeeID, string password,string role)
+        public  void addUser(string employeeName,string employeeID, string password,string role)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -88,6 +92,24 @@ namespace Assignment_1
 
                 connection.Open();
                 command.ExecuteNonQuery();
+            }
+        }
+
+        public object LoginValidation(string employeeId, string password, string role)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand("LoginChecking", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("@empId", employeeId);
+                    cmd.Parameters.AddWithValue("@password", password);
+                    cmd.Parameters.AddWithValue("@role", role);
+
+                    con.Open();
+                    return cmd.ExecuteScalar();
+                }
             }
         }
     }

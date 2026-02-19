@@ -12,12 +12,16 @@ namespace Assignment_1
     public partial class EmployeeDashboard : Form
     {
         private string employee_Id;
+        private readonly taskDatabase _taskDatabase;
+        private readonly Form _loginForm;
 
-        public EmployeeDashboard(string employeeId)
+        public EmployeeDashboard(taskDatabase taskdatabase, string employeeId, Form loginForm)
         {
 
             InitializeComponent();
+            _taskDatabase = taskdatabase;
             employee_Id = employeeId;
+            _loginForm = loginForm;
         }
 
         private void EmployeeDashboard_Load(object sender, EventArgs e)
@@ -37,7 +41,9 @@ namespace Assignment_1
 
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            DataTable tasksData = taskDatabase.getTasks(employee_Id);
+            DataTable tasksData = _taskDatabase.getTasks(employee_Id);
+
+
             dataGridView1.DataSource = tasksData;
 
 
@@ -75,7 +81,7 @@ namespace Assignment_1
 
         private void Add_Click(object sender, EventArgs e)
         {
-            Employee_Task_Add employee_Task_Add = new Employee_Task_Add(employee_Id);
+            Employee_Task_Add employee_Task_Add = new Employee_Task_Add(_taskDatabase, employee_Id);
             employee_Task_Add.ShowDialog();
 
 
@@ -86,7 +92,7 @@ namespace Assignment_1
             //Using database//
             try
             {
-                DataTable tasksData = taskDatabase.getTasks(employee_Id);
+                DataTable tasksData = _taskDatabase.getTasks(employee_Id);
                 dataGridView1.DataSource = tasksData;
             }
             catch (Exception ex)
@@ -111,59 +117,66 @@ namespace Assignment_1
             DataRowView row = (DataRowView)dataGridView1.CurrentRow.DataBoundItem;
             int taskId = Convert.ToInt32(row["task_id"]);
 
-            
-                EmployeeTaskEdit taskedit = new EmployeeTaskEdit(taskId);
-                taskedit.ShowDialog();
 
-                //Using List//
+            EmployeeTaskEdit taskedit = new EmployeeTaskEdit(_taskDatabase, taskId);
+            taskedit.ShowDialog();
 
-                //Task_Class selectedTask = (Task_Class)dataGridView1.Rows[e.RowIndex].DataBoundItem;
-                //EmployeeTaskEdit taskEdit = new EmployeeTaskEdit(selectedTask);
-                //taskEdit.ShowDialog();
+            //Using List//
 
-                //Using database//
-                try
-                {
-                    DataTable tasksData = taskDatabase.getTasks(employee_Id);
-                    dataGridView1.DataSource = tasksData;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error Occured :" + ex.Message);
-                }
+            //Task_Class selectedTask = (Task_Class)dataGridView1.Rows[e.RowIndex].DataBoundItem;
+            //EmployeeTaskEdit taskEdit = new EmployeeTaskEdit(selectedTask);
+            //taskEdit.ShowDialog();
 
-
-                dataGridView1.Refresh();
+            //Using database//
+            try
+            {
+                DataTable tasksData = _taskDatabase.getTasks(employee_Id);
+                dataGridView1.DataSource = tasksData;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error Occured :" + ex.Message);
             }
 
-        
+
+            dataGridView1.Refresh();
+        }
+
+
 
         private void delete_Task_Click(object sender, EventArgs e)
         {
             DataRowView row = (DataRowView)dataGridView1.CurrentRow.DataBoundItem;
             int taskId = Convert.ToInt32(row["task_id"]);
-            
-            
-                //Task_Class taskdelete = (Task_Class)dataGridView1.Rows[e.RowIndex].DataBoundItem;
 
-                string taskDescription = row["task_discription"].ToString();
 
-                var confirm = MessageBox.Show($"Are you sure to delete the '{taskDescription}'?", "Confirm Delete", MessageBoxButtons.YesNo);
+            //Task_Class taskdelete = (Task_Class)dataGridView1.Rows[e.RowIndex].DataBoundItem;
 
-                if (confirm == DialogResult.Yes)
-                {
-                    //Task_Store.tasks.Remove(taskdelete);
-                    //var filtered = Task_Store.tasks.Where(t=>t.employee_id== taskdelete.employee_id).ToList();
-                    //dataGridView1.DataSource = filtered;
-                    taskDatabase.deleteTask(taskId);
-                    DataTable filtered = taskDatabase.getTasks(employee_Id);
-                    dataGridView1.DataSource = filtered;
+            string taskDescription = row["task_discrption"].ToString();
 
-                    dataGridView1.Refresh();
-                
+            // var confirm = MessageBox.Show($"Are you sure to delete the '{taskDescription}'?", "Confirm Delete", MessageBoxButtons.YesNo);
+            var confirm = MessageBox.Show($"Are you sure you want to delete \"{taskDescription}\"?", "Delete Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
+
+            if (confirm == DialogResult.Yes)
+            {
+                //Task_Store.tasks.Remove(taskdelete);
+                //var filtered = Task_Store.tasks.Where(t=>t.employee_id== taskdelete.employee_id).ToList();
+                //dataGridView1.DataSource = filtered;
+                _taskDatabase.deleteTask(taskId);
+                DataTable filtered = _taskDatabase.getTasks(employee_Id);
+                dataGridView1.DataSource = filtered;
+
+                dataGridView1.Refresh();
+
 
 
             }
+        }
+
+        private void logout_Click(object sender, EventArgs e)
+        {
+            _loginForm.Show();
+            this.Close();
         }
     }
 }

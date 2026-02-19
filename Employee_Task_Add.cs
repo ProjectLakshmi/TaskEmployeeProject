@@ -13,9 +13,11 @@ namespace Assignment_1
     {
 
         private string employeeId;
-        public Employee_Task_Add(string emp_id)
+        private readonly taskDatabase _taskDatabase;
+        public Employee_Task_Add(taskDatabase taskdatabase,string emp_id)
         {
             InitializeComponent();
+            _taskDatabase = taskdatabase;
             employeeId = emp_id;
         }
 
@@ -39,8 +41,21 @@ namespace Assignment_1
             }
             try
             {
-                int taskId = taskDatabase.GetNextTaskId();
-                taskDatabase.addTasks(employeeId, taskId, taskDiscription, taskStatus);
+
+                // taskDatabase.addTasks(employeeId, taskDiscription, taskStatus);
+                string description = textBox2.Text;
+
+                string[] lines = description.Split(
+                    new[] { Environment.NewLine },
+                    StringSplitOptions.RemoveEmptyEntries);
+
+                foreach (string line in lines)
+                {
+                    _taskDatabase.addTasks(employeeId, line, false);
+                }
+
+                // Reload grid after insert
+            //    dataGridView1.DataSource = taskDatabase.getTasks(employeeId);
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }

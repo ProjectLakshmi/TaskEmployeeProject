@@ -10,9 +10,11 @@ namespace Assignment_1
 {
     public partial class Forget_Password : Form
     {
-        public Forget_Password()
+        private readonly userDatabase userDatabase;
+        public Forget_Password(userDatabase _userdatabase)
         {
             InitializeComponent();
+            this.userDatabase = _userdatabase;
         }
 
        
@@ -27,14 +29,28 @@ namespace Assignment_1
             verify_user.Enabled = true;
             verify_user.Visible = true;
         }
-
+        
         private void update_password_Click(object sender, EventArgs e)
         {
             if (newPasswordText.Text.Trim() == confirmPasswordtext.Text.Trim())
             {
                 string employeeId = usernameText.Text.Trim();
                 string password = newPasswordText.Text.Trim();
-               
+                string confirmPassword = confirmPasswordtext.Text.Trim();
+
+                if (string.IsNullOrWhiteSpace(employeeId) ||
+       string.IsNullOrWhiteSpace(password) ||
+       string.IsNullOrWhiteSpace(confirmPassword))
+                {
+                    MessageBox.Show("Please fill all fields");
+                    return;
+                }
+                if (password != confirmPassword)
+                {
+                    MessageBox.Show("Passwords do not match");
+                    return;
+                }
+
                 if (userDatabase.isEmployee(employeeId))
                 {
                     userDatabase.UpdatePassword(employeeId, password);

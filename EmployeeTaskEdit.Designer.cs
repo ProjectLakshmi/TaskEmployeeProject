@@ -49,7 +49,6 @@
             label1.Size = new Size(140, 23);
             label1.TabIndex = 0;
             label1.Text = "Text Discription";
-            label1.Click += label1_Click;
             // 
             // UpdatedTaskStatus
             // 
@@ -95,12 +94,15 @@
             // 
             // UpdatedTextDiscription
             // 
+            UpdatedTextDiscription.AcceptsReturn = true;
             UpdatedTextDiscription.BackColor = SystemColors.ButtonFace;
             UpdatedTextDiscription.BorderStyle = BorderStyle.FixedSingle;
             UpdatedTextDiscription.Font = new Font("Segoe UI", 12F);
             UpdatedTextDiscription.Location = new Point(24, 43);
+            UpdatedTextDiscription.Multiline = true;
             UpdatedTextDiscription.Name = "UpdatedTextDiscription";
-            UpdatedTextDiscription.Size = new Size(415, 29);
+            UpdatedTextDiscription.ScrollBars = ScrollBars.Vertical;
+            UpdatedTextDiscription.Size = new Size(415, 23);
             UpdatedTextDiscription.TabIndex = 4;
             // 
             // TaskStatus
@@ -128,7 +130,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(699, 329);
             panel1.TabIndex = 6;
-            panel1.Paint += panel1_Paint;
             // 
             // EmployeeTaskEdit
             // 
@@ -141,6 +142,7 @@
             Name = "EmployeeTaskEdit";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "EmployeeTaskEdit";
+            Load += EmployeeTaskEdit_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

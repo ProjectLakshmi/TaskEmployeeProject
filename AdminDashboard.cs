@@ -12,9 +12,16 @@ namespace Assignment_1
     {
 
         private string employeeId = null;
-        public AdminDashboard()
+        private readonly userDatabase userDatabase;
+        private readonly taskDatabase taskDatabase;
+        private readonly Form _loginform;
+        public AdminDashboard(userDatabase _userDatabase,taskDatabase _taskdatabase,Form loginForm)
+       
         {
             InitializeComponent();
+           _loginform = loginForm;
+            userDatabase = _userDatabase;
+            this.taskDatabase = _taskdatabase;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -126,9 +133,9 @@ namespace Assignment_1
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
+            _loginform.Show();
             this.Close();
-            login.Show();
+            
         }
 
         private void show_tasks_Click(object sender, EventArgs e)

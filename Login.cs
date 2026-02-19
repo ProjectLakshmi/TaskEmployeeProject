@@ -5,10 +5,14 @@ namespace Assignment_1
 {
     public partial class Login : Form
     {
-        private static string connStr = "Server=localhost;Database=taskmanager;Trusted_Connection=True;Encrypt=False;";
-        public Login()
+        // private static string connStr = "Server=localhost;Database=taskmanager;Trusted_Connection=True;Encrypt=False;";
+        private readonly taskDatabase taskDatabase;
+        private readonly userDatabase userDatabase;
+        public Login(userDatabase _userDatabase,taskDatabase _taskDatabase)
         {
             InitializeComponent();
+            this.userDatabase = _userDatabase;
+            this.taskDatabase = _taskDatabase;
         }
 
 
@@ -20,39 +24,52 @@ namespace Assignment_1
             string password = password_text.Text.Trim();
             string role = roleBox.Text.Trim();
 
-            using (SqlConnection con = new SqlConnection(connStr))
+            if (string.IsNullOrWhiteSpace(employeeId) ||
+        string.IsNullOrWhiteSpace(password) ||
+        string.IsNullOrWhiteSpace(role))
             {
-                using (SqlCommand cmd = new SqlCommand("LoginChecking", con))
+                MessageBox.Show("Please fill all fields",
+                    "Login Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+            try
+            {
+object result = userDatabase.LoginValidation(employeeId, password, role);
+                if(result==null)
                 {
-                    cmd.CommandType = CommandType.StoredProcedure;
+                    MessageBox.Show("Invalid credentials",
+                "Login Failed",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error);
+                    return;
+                }
+                if (role.Equals("Admin", StringComparison.OrdinalIgnoreCase))
+                {
+                    AdminDashboard admin = new AdminDashboard(userDatabase,taskDatabase,this);
+                   
+                    admin.Show();
+                    this.Hide();
+                }
+                else if (role.Equals("Employee", StringComparison.OrdinalIgnoreCase))
+                {
+                    EmployeeDashboard employee =new EmployeeDashboard(taskDatabase, employeeId,this);
+                  
+                    employee.Show();
+                    this.Hide();
 
-                    cmd.Parameters.AddWithValue("@empId", employeeId);
-                    cmd.Parameters.AddWithValue("@password", password);
-                    cmd.Parameters.AddWithValue("@role", role);
 
-                    con.Open();
-
-                    object result = cmd.ExecuteScalar();
-
-                    if (result == null)
-                    {
-                        MessageBox.Show("Invalid credentials");
-                        return;
-                    }
-
-                    // Login Success
-                    if (role == "Admin")
-                    {
-                        AdminDashboard admin = new AdminDashboard();
-                        admin.Show();
-                    }
-                    else if (role == "Employee")
-                    {
-                        EmployeeDashboard employee = new EmployeeDashboard(result.ToString());
-                        employee.Show();
-                    }
                 }
             }
+            catch (Exception ex) {
+                MessageBox.Show("Something went wrong: " + ex.Message,
+           "System Error",
+           MessageBoxButtons.OK,
+           MessageBoxIcon.Error);
+            }
+
+
         }
 
 
@@ -70,7 +87,7 @@ namespace Assignment_1
 
         private void forget_password_Click(object sender, EventArgs e)
         {
-            Forget_Password forget_Password = new Forget_Password();
+            Forget_Password forget_Password = new Forget_Password(userDatabase);
             forget_Password.Show();
         }
 
@@ -94,7 +111,7 @@ namespace Assignment_1
 
         private void sign_up_label_Click(object sender, EventArgs e)
         {
-            SignUp sign = new SignUp();
+            SignUp sign = new SignUp(userDatabase,taskDatabase);
             sign.Show();
         }
 

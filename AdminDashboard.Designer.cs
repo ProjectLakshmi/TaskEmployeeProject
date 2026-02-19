@@ -74,7 +74,7 @@
             Status.Items.AddRange(new object[] { "All", "Pending", "Completed" });
             Status.Location = new Point(3, 88);
             Status.Name = "Status";
-            Status.Size = new Size(466, 33);
+            Status.Size = new Size(466, 28);
             Status.TabIndex = 6;
             Status.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
@@ -138,7 +138,7 @@
             label3.ForeColor = SystemColors.InfoText;
             label3.Location = new Point(0, 11);
             label3.Name = "label3";
-            label3.Size = new Size(78, 28);
+            label3.Size = new Size(64, 21);
             label3.TabIndex = 1;
             label3.Text = "Logout";
             label3.Click += label3_Click;
@@ -164,7 +164,7 @@
             panel3.Controls.Add(ViewEmployees);
             panel3.Location = new Point(165, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(469, 478);
+            panel3.Size = new Size(469, 485);
             panel3.TabIndex = 11;
             // 
             // show_tasks
@@ -187,7 +187,7 @@
             dataGridView1.BackgroundColor = Color.White;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Employee_ID, EmployeeName });
-            dataGridView1.Location = new Point(0, 248);
+            dataGridView1.Location = new Point(0, 255);
             dataGridView1.Margin = new Padding(15, 3, 3, 3);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersVisible = false;
@@ -222,7 +222,7 @@
             dataGridView2.BackgroundColor = SystemColors.Window;
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Columns.AddRange(new DataGridViewColumn[] { EmpId, TaskId, TaskDiscription, TaskStatus });
-            dataGridView2.Location = new Point(0, 248);
+            dataGridView2.Location = new Point(0, 254);
             dataGridView2.Margin = new Padding(3, 15, 3, 3);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersVisible = false;
@@ -239,7 +239,7 @@
             EmpId.Name = "EmpId";
             EmpId.ReadOnly = true;
             EmpId.Visible = false;
-            EmpId.Width = 125;
+            EmpId.Width = 98;
             // 
             // TaskId
             // 
@@ -251,7 +251,7 @@
             // 
             // TaskDiscription
             // 
-            TaskDiscription.DataPropertyName = "task_discription";
+            TaskDiscription.DataPropertyName = "task_discrption";
             TaskDiscription.HeaderText = "Task Discription";
             TaskDiscription.MinimumWidth = 6;
             TaskDiscription.Name = "TaskDiscription";
@@ -267,7 +267,7 @@
             // 
             // AdminDashboard
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");

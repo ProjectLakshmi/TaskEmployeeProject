@@ -71,8 +71,9 @@
             textBox2.BorderStyle = BorderStyle.FixedSingle;
             textBox2.Font = new Font("Segoe UI", 12F);
             textBox2.Location = new Point(29, 111);
+            textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(471, 29);
+            textBox2.Size = new Size(471, 23);
             textBox2.TabIndex = 5;
             // 
             // button1

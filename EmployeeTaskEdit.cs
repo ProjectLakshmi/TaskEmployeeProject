@@ -10,14 +10,16 @@ namespace Assignment_1
 {
     public partial class EmployeeTaskEdit : Form
     {
-
+        private readonly taskDatabase _taskDatabase;
         private int task_id;
 
-        public EmployeeTaskEdit(int taskId)
+        public EmployeeTaskEdit(taskDatabase _taskdatabase,int taskId)
         {
 
             InitializeComponent();
+            _taskDatabase = _taskdatabase;
             task_id = taskId;
+           
 
             //UpdatedTextDiscription.Text = selectedtask.task_discription;
             //UpdatedTaskStatus.Text = (selectedtask.task_status) ? "Completed" : "Not Completed";
@@ -50,7 +52,7 @@ namespace Assignment_1
                     taskStatus = false;
                 }
 
-                taskDatabase.editTask(task_id, taskDiscription, taskStatus);
+                _taskDatabase.editTask(task_id, taskDiscription, taskStatus);
 
             }
             catch (Exception ex)
@@ -69,14 +71,21 @@ namespace Assignment_1
             this.Close();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void EmployeeTaskEdit_Load(object sender, EventArgs e)
         {
+            DataTable dt = _taskDatabase.getTaskById(task_id);
 
-        }
+            if (dt.Rows.Count > 0)
+            {
+                UpdatedTextDiscription.Text =
+                    dt.Rows[0]["task_discrption"].ToString();
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+                bool status =
+                    Convert.ToBoolean(dt.Rows[0]["task_status"]);
 
+                UpdatedTaskStatus.Text =
+                    status ? "Completed" : "Not Completed";
+            }
         }
     }
 }
