@@ -7,14 +7,19 @@ namespace Assignment_1
         /// </summary>
         private static taskDatabase taskDatabase;
         private static userDatabase userDatabase;
+        private static DBManager dBManager;
+
         [STAThread]
         static void Main()
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
+
             string connectionString = "Server=localhost;Database=taskmanager;Trusted_Connection=True;Encrypt=False;";
-            taskDatabase=new taskDatabase(connectionString);
-            userDatabase=new userDatabase(connectionString);
+            dBManager = new DBManager(connectionString);
+            taskDatabase=new taskDatabase(dBManager);
+            userDatabase=new userDatabase(dBManager);
+
             ApplicationConfiguration.Initialize();
             Application.Run(new Login(userDatabase,taskDatabase));
             

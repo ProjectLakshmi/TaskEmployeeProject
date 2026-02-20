@@ -32,6 +32,7 @@
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmployeeDashboard));
             Add = new Button();
             logout = new Button();
             delete_Task = new Button();
@@ -44,10 +45,13 @@
             TaskStatus = new DataGridViewCheckBoxColumn();
             panel1 = new Panel();
             label1 = new Label();
+            pictureBox1 = new PictureBox();
+            employeeDashboard_label = new Label();
             panel4.SuspendLayout();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // Add
@@ -57,10 +61,9 @@
             Add.FlatStyle = FlatStyle.Flat;
             Add.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Add.ForeColor = Color.White;
-            Add.Location = new Point(33, 78);
-            Add.Margin = new Padding(3, 4, 3, 4);
+            Add.Location = new Point(30, 58);
             Add.Name = "Add";
-            Add.Size = new Size(100, 35);
+            Add.Size = new Size(88, 26);
             Add.TabIndex = 7;
             Add.Text = " +  Add";
             Add.UseVisualStyleBackColor = false;
@@ -68,15 +71,14 @@
             // 
             // logout
             // 
-            logout.BackColor = Color.Transparent;
+            logout.BackColor = Color.LightGray;
             logout.FlatAppearance.BorderSize = 0;
             logout.FlatStyle = FlatStyle.Flat;
             logout.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            logout.ForeColor = Color.White;
-            logout.Location = new Point(0, 415);
-            logout.Margin = new Padding(3, 4, 3, 4);
+            logout.ForeColor = Color.Black;
+            logout.Location = new Point(0, 311);
             logout.Name = "logout";
-            logout.Size = new Size(217, 52);
+            logout.Size = new Size(190, 39);
             logout.TabIndex = 12;
             logout.Text = " ↪  Logout";
             logout.UseVisualStyleBackColor = false;
@@ -90,10 +92,9 @@
             delete_Task.FlatStyle = FlatStyle.Flat;
             delete_Task.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             delete_Task.ForeColor = Color.Red;
-            delete_Task.Location = new Point(286, 78);
-            delete_Task.Margin = new Padding(3, 4, 3, 4);
+            delete_Task.Location = new Point(250, 58);
             delete_Task.Name = "delete_Task";
-            delete_Task.Size = new Size(120, 35);
+            delete_Task.Size = new Size(105, 26);
             delete_Task.TabIndex = 9;
             delete_Task.Text = "  🗑  Delete";
             delete_Task.UseVisualStyleBackColor = false;
@@ -106,10 +107,9 @@
             edit_task.FlatStyle = FlatStyle.Flat;
             edit_task.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             edit_task.ForeColor = Color.FromArgb(30, 41, 59);
-            edit_task.Location = new Point(161, 78);
-            edit_task.Margin = new Padding(3, 4, 3, 4);
+            edit_task.Location = new Point(141, 58);
             edit_task.Name = "edit_task";
-            edit_task.Size = new Size(100, 35);
+            edit_task.Size = new Size(88, 26);
             edit_task.TabIndex = 8;
             edit_task.Text = "  ✏  Edit";
             edit_task.UseVisualStyleBackColor = false;
@@ -118,20 +118,22 @@
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(15, 23, 42);
+            panel4.Controls.Add(employeeDashboard_label);
+            panel4.Controls.Add(pictureBox1);
             panel4.Controls.Add(logout);
             panel4.Dock = DockStyle.Left;
             panel4.Location = new Point(0, 0);
+            panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
-            panel4.Size = new Size(217, 471);
+            panel4.Size = new Size(190, 353);
             panel4.TabIndex = 9;
             // 
             // panel3
             // 
             panel3.Controls.Add(dataGridView1);
-            panel3.Location = new Point(217, 185);
-            panel3.Margin = new Padding(3, 4, 3, 4);
+            panel3.Location = new Point(190, 139);
             panel3.Name = "panel3";
-            panel3.Size = new Size(582, 286);
+            panel3.Size = new Size(509, 214);
             panel3.TabIndex = 17;
             // 
             // dataGridView1
@@ -165,13 +167,12 @@
             dataGridView1.EnableHeadersVisualStyles = false;
             dataGridView1.GridColor = SystemColors.ButtonShadow;
             dataGridView1.Location = new Point(0, 0);
-            dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 35;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(582, 286);
+            dataGridView1.Size = new Size(509, 214);
             dataGridView1.TabIndex = 6;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -211,10 +212,11 @@
             panel1.Controls.Add(Add);
             panel1.Controls.Add(edit_task);
             panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(217, 0);
+            panel1.Location = new Point(190, 0);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Padding = new Padding(20, 10, 20, 10);
-            panel1.Size = new Size(582, 152);
+            panel1.Padding = new Padding(18, 8, 18, 8);
+            panel1.Size = new Size(509, 114);
             panel1.TabIndex = 19;
             // 
             // label1
@@ -222,33 +224,56 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(30, 41, 59);
-            label1.Location = new Point(20, 15);
+            label1.Location = new Point(30, 9);
             label1.Name = "label1";
-            label1.Size = new Size(222, 38);
+            label1.Size = new Size(175, 30);
             label1.TabIndex = 0;
             label1.Text = "Employee Tasks";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Location = new Point(12, 58);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(172, 109);
+            pictureBox1.TabIndex = 13;
+            pictureBox1.TabStop = false;
+            // 
+            // employeeDashboard_label
+            // 
+            employeeDashboard_label.AutoSize = true;
+            employeeDashboard_label.BackColor = Color.Transparent;
+            employeeDashboard_label.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            employeeDashboard_label.ForeColor = Color.White;
+            employeeDashboard_label.Location = new Point(27, 19);
+            employeeDashboard_label.Name = "employeeDashboard_label";
+            employeeDashboard_label.Size = new Size(157, 20);
+            employeeDashboard_label.TabIndex = 14;
+            employeeDashboard_label.Text = "Employee Dashboard";
+            // 
             // EmployeeDashboard
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightGray;
+            BackColor = Color.WhiteSmoke;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(799, 471);
+            ClientSize = new Size(699, 353);
             Controls.Add(panel1);
             Controls.Add(panel3);
             Controls.Add(panel4);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "EmployeeDashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "EmployeeDashboard";
             Load += EmployeeDashboard_Load;
             panel4.ResumeLayout(false);
+            panel4.PerformLayout();
             panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -265,5 +290,7 @@
         private DataGridViewCheckBoxColumn TaskStatus;
         private Panel panel1;
         private Label label1;
+        private PictureBox pictureBox1;
+        private Label employeeDashboard_label;
     }
 }

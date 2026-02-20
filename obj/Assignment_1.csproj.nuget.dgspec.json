@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Assignment_1.csproj": {}
+    "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Assignment_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Assignment_1.csproj": {
+    "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Assignment_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Assignment_1.csproj",
+        "projectUniqueName": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Assignment_1.csproj",
         "projectName": "Assignment_1",
-        "projectPath": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\Assignment_1.csproj",
-        "packagesPath": "C:\\Users\\laksh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laksh\\Downloads\\TaskEmployeeProject-main\\TaskEmployeeProject-main\\Assignment_1\\obj\\",
+        "projectPath": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\Assignment_1.csproj",
+        "packagesPath": "C:\\Users\\Sonar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sonar\\Documents\\Lakshmi_CSharp\\Managment_project\\Assignment_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\laksh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sonar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

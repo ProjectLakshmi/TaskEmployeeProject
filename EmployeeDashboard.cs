@@ -50,32 +50,9 @@ namespace Assignment_1
             // dataGridView1.DataSource = selectedemp;
 
 
-
-
-            ToggleEditColumnVisibility();
-
-            //Task_Store.tasks.ListChanged += (s, ev) => ToggleEditColumnVisibility();
-
-
-
         }
 
-        private void ToggleEditColumnVisibility()
-        {
-
-            //dataGridView1.Columns["Edit"].Visible = Task_Store.tasks.Count > 0;
-
-            //if (Task_Store.tasks.Count > 0)
-            //{
-            //    dataGridView1.Columns["Edit"].Visible = true;
-            //}
-
-            //if (Task_Store.tasks.Count > 0)
-            //{
-            //    dataGridView1.Columns["DeleteTask"].Visible = true;
-            //}
-
-        }
+       
 
 
 

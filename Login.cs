@@ -50,14 +50,14 @@ object result = userDatabase.LoginValidation(employeeId, password, role);
                     AdminDashboard admin = new AdminDashboard(userDatabase,taskDatabase,this);
                    
                     admin.Show();
-                    this.Hide();
+                    //this.Hide();
                 }
                 else if (role.Equals("Employee", StringComparison.OrdinalIgnoreCase))
                 {
                     EmployeeDashboard employee =new EmployeeDashboard(taskDatabase, employeeId,this);
                   
                     employee.Show();
-                    this.Hide();
+                   // this.Hide();
 
 
                 }
