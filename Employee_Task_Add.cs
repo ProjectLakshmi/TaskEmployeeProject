@@ -42,20 +42,20 @@ namespace Assignment_1
             try
             {
 
-                // taskDatabase.addTasks(employeeId, taskDiscription, taskStatus);
-                string description = textBox2.Text;
+                 _taskDatabase.addTasks(employeeId, taskDiscription, taskStatus);
+                //string description = textBox2.Text;
 
-                string[] lines = description.Split(
-                    new[] { Environment.NewLine },
-                    StringSplitOptions.RemoveEmptyEntries);
+                //string[] lines = description.Split(
+                //    new[] { Environment.NewLine },
+                //    StringSplitOptions.RemoveEmptyEntries);
 
-                foreach (string line in lines)
-                {
-                    _taskDatabase.addTasks(employeeId, line, false);
-                }
+                //foreach (string line in lines)
+                //{
+                //    _taskDatabase.addTasks(employeeId, line, false);
+                //}
 
                 // Reload grid after insert
-            //    dataGridView1.DataSource = taskDatabase.getTasks(employeeId);
+              //dataGridView1.DataSource = _taskDatabase.getTasks(employeeId);
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }

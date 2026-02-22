@@ -28,13 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminDashboard));
             ViewEmployees = new Button();
             Status = new ComboBox();
             BackButton = new Button();
             panel1 = new Panel();
-            panel4 = new Panel();
-            panel5 = new Panel();
             panel2 = new Panel();
             label3 = new Label();
             label1 = new Label();
@@ -74,15 +71,15 @@
             Status.Items.AddRange(new object[] { "All", "Pending", "Completed" });
             Status.Location = new Point(3, 88);
             Status.Name = "Status";
-            Status.Size = new Size(466, 28);
+            Status.Size = new Size(466, 33);
             Status.TabIndex = 6;
             Status.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // BackButton
             // 
-            BackButton.BackColor = SystemColors.Highlight;
+            BackButton.BackColor = Color.FromArgb(33, 37, 41);
             BackButton.ForeColor = Color.Transparent;
-            BackButton.Location = new Point(0, 62);
+            BackButton.Location = new Point(12, 62);
             BackButton.Name = "BackButton";
             BackButton.Size = new Size(78, 36);
             BackButton.TabIndex = 8;
@@ -92,32 +89,15 @@
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.Window;
-            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.BackColor = Color.FromArgb(33, 37, 41);
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Controls.Add(panel4);
-            panel1.Controls.Add(panel5);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(165, 485);
+            panel1.Size = new Size(220, 485);
             panel1.TabIndex = 9;
-            // 
-            // panel4
-            // 
-            panel4.Location = new Point(165, 67);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(100, 33);
-            panel4.TabIndex = 7;
-            // 
-            // panel5
-            // 
-            panel5.Location = new Point(165, 72);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(466, 35);
-            panel5.TabIndex = 8;
             // 
             // panel2
             // 
@@ -127,18 +107,18 @@
             panel2.Dock = DockStyle.Bottom;
             panel2.Location = new Point(0, 384);
             panel2.Name = "panel2";
-            panel2.Size = new Size(165, 101);
+            panel2.Size = new Size(220, 101);
             panel2.TabIndex = 9;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
+            label3.BackColor = Color.FromArgb(220, 53, 69);
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = SystemColors.InfoText;
-            label3.Location = new Point(0, 11);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(12, 11);
             label3.Name = "label3";
-            label3.Size = new Size(64, 21);
+            label3.Size = new Size(78, 28);
             label3.TabIndex = 1;
             label3.Text = "Logout";
             label3.Click += label3_Click;
@@ -147,8 +127,8 @@
             // 
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.MenuText;
-            label1.Location = new Point(0, 25);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(12, 24);
             label1.Name = "label1";
             label1.Size = new Size(148, 30);
             label1.TabIndex = 0;
@@ -162,7 +142,7 @@
             panel3.Controls.Add(dataGridView2);
             panel3.Controls.Add(Status);
             panel3.Controls.Add(ViewEmployees);
-            panel3.Location = new Point(165, 0);
+            panel3.Location = new Point(226, 0);
             panel3.Name = "panel3";
             panel3.Size = new Size(469, 485);
             panel3.TabIndex = 11;
@@ -193,7 +173,7 @@
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(469, 230);
+            dataGridView1.Size = new Size(469, 227);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -227,7 +207,7 @@
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersVisible = false;
             dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.Size = new Size(469, 231);
+            dataGridView2.Size = new Size(469, 228);
             dataGridView2.TabIndex = 5;
             // 
             // EmpId
@@ -239,7 +219,7 @@
             EmpId.Name = "EmpId";
             EmpId.ReadOnly = true;
             EmpId.Visible = false;
-            EmpId.Width = 98;
+            EmpId.Width = 125;
             // 
             // TaskId
             // 
@@ -267,12 +247,11 @@
             // 
             // AdminDashboard
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Window;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.FromArgb(240, 242, 245);
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(638, 485);
+            ClientSize = new Size(711, 485);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -302,8 +281,6 @@
         private DataGridView dataGridView1;
         private DataGridView dataGridView2;
         private Panel panel2;
-        private Panel panel4;
-        private Panel panel5;
         private Button show_tasks;
         private DataGridViewTextBoxColumn Employee_ID;
         private DataGridViewTextBoxColumn EmployeeName;

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Forget_Password));
             new_pasword = new Label();
             confirm_password = new Label();
             newPasswordText = new TextBox();
@@ -38,79 +37,96 @@
             usernameText = new TextBox();
             verify_user = new Button();
             panel1 = new Panel();
-            panel2 = new Panel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // new_pasword
             // 
             new_pasword.AutoSize = true;
-            new_pasword.ForeColor = Color.Transparent;
-            new_pasword.Location = new Point(31, 111);
+            new_pasword.BackColor = Color.Transparent;
+            new_pasword.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            new_pasword.ForeColor = Color.FromArgb(108, 117, 125);
+            new_pasword.Location = new Point(31, 113);
             new_pasword.Name = "new_pasword";
-            new_pasword.Size = new Size(104, 20);
+            new_pasword.Size = new Size(135, 25);
             new_pasword.TabIndex = 1;
             new_pasword.Text = "New Password";
             // 
             // confirm_password
             // 
             confirm_password.AutoSize = true;
-            confirm_password.ForeColor = Color.Transparent;
-            confirm_password.Location = new Point(31, 175);
+            confirm_password.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            confirm_password.ForeColor = Color.FromArgb(108, 117, 125);
+            confirm_password.Location = new Point(31, 218);
             confirm_password.Name = "confirm_password";
-            confirm_password.Size = new Size(127, 20);
+            confirm_password.Size = new Size(165, 25);
             confirm_password.TabIndex = 2;
             confirm_password.Text = "Confirm Password";
             // 
             // newPasswordText
             // 
-            newPasswordText.Location = new Point(31, 135);
+            newPasswordText.BorderStyle = BorderStyle.FixedSingle;
+            newPasswordText.Location = new Point(31, 165);
             newPasswordText.Margin = new Padding(3, 4, 3, 4);
             newPasswordText.Name = "newPasswordText";
-            newPasswordText.Size = new Size(390, 27);
+            newPasswordText.Size = new Size(350, 32);
             newPasswordText.TabIndex = 4;
+            newPasswordText.UseSystemPasswordChar = true;
             // 
             // confirmPasswordtext
             // 
-            confirmPasswordtext.Location = new Point(31, 199);
+            confirmPasswordtext.BorderStyle = BorderStyle.FixedSingle;
+            confirmPasswordtext.Location = new Point(31, 259);
             confirmPasswordtext.Margin = new Padding(3, 4, 3, 4);
             confirmPasswordtext.Name = "confirmPasswordtext";
-            confirmPasswordtext.Size = new Size(390, 27);
+            confirmPasswordtext.Size = new Size(350, 32);
             confirmPasswordtext.TabIndex = 5;
+            confirmPasswordtext.UseSystemPasswordChar = true;
             // 
             // update_password
             // 
-            update_password.Location = new Point(31, 245);
+            update_password.BackColor = Color.FromArgb(0, 123, 255);
+            update_password.FlatStyle = FlatStyle.Flat;
+            update_password.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            update_password.ForeColor = Color.White;
+            update_password.Location = new Point(31, 326);
             update_password.Margin = new Padding(3, 4, 3, 4);
             update_password.Name = "update_password";
-            update_password.Size = new Size(86, 31);
+            update_password.Size = new Size(150, 40);
             update_password.TabIndex = 7;
             update_password.Text = "Update Password";
-            update_password.UseVisualStyleBackColor = true;
+            update_password.UseVisualStyleBackColor = false;
             update_password.Click += update_password_Click;
             // 
             // username
             // 
             username.AutoSize = true;
-            username.ForeColor = Color.Transparent;
+            username.BackColor = Color.Transparent;
+            username.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            username.ForeColor = Color.FromArgb(108, 117, 125);
             username.Location = new Point(31, 15);
             username.Name = "username";
-            username.Size = new Size(75, 20);
+            username.Size = new Size(97, 25);
             username.TabIndex = 8;
             username.Text = "Username";
             // 
             // usernameText
             // 
-            usernameText.Location = new Point(31, 38);
+            usernameText.BorderStyle = BorderStyle.FixedSingle;
+            usernameText.Location = new Point(31, 43);
             usernameText.Name = "usernameText";
-            usernameText.Size = new Size(390, 27);
+            usernameText.Size = new Size(350, 32);
             usernameText.TabIndex = 9;
             // 
             // verify_user
             // 
-            verify_user.Location = new Point(31, 71);
+            verify_user.FlatAppearance.BorderColor = Color.FromArgb(0, 123, 255);
+            verify_user.FlatStyle = FlatStyle.Flat;
+            verify_user.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            verify_user.ForeColor = Color.FromArgb(0, 123, 255);
+            verify_user.Location = new Point(401, 37);
             verify_user.Name = "verify_user";
-            verify_user.Size = new Size(75, 27);
+            verify_user.Size = new Size(150, 40);
             verify_user.TabIndex = 10;
             verify_user.Text = "Verify";
             verify_user.UseVisualStyleBackColor = true;
@@ -118,39 +134,31 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.Transparent;
+            panel1.BackColor = Color.White;
             panel1.Controls.Add(verify_user);
-            panel1.Controls.Add(usernameText);
             panel1.Controls.Add(username);
+            panel1.Controls.Add(usernameText);
             panel1.Controls.Add(update_password);
             panel1.Controls.Add(confirmPasswordtext);
             panel1.Controls.Add(newPasswordText);
             panel1.Controls.Add(confirm_password);
             panel1.Controls.Add(new_pasword);
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(0, 0);
+            panel1.Location = new Point(99, 36);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(640, 359);
+            panel1.Size = new Size(573, 399);
             panel1.TabIndex = 8;
-            // 
-            // panel2
-            // 
-            panel2.Location = new Point(117, 12);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(472, 333);
-            panel2.TabIndex = 9;
             // 
             // Forget_Password
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.FromArgb(240, 242, 245);
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(640, 359);
+            ClientSize = new Size(753, 491);
             Controls.Add(panel1);
-            Controls.Add(panel2);
             Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "Forget_Password";
             StartPosition = FormStartPosition.CenterScreen;
@@ -172,6 +180,5 @@
         private TextBox usernameText;
         private Button verify_user;
         private Panel panel1;
-        private Panel panel2;
     }
 }
